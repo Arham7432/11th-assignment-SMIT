@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zomato.css">
+    <link rel="shortcut icon" href="https://b.zmtcdn.com/data/o2_assets/5376b760d3b12ca9af29fc8f4e1847e71717417610.png" type="image/x-icon">
+    <title>Food Delivery Restaurants in - Zomato</title>
+    <style>
+        .underline {
+            width: calc(100% + -15px);
+        }
+
+        .inspiration {
+            margin: 40px 0;
+        }
+
+        .inspiration p {
+            margin-bottom: 25px;
+        }
+
+        .inspiration-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .inspiration-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .inspiration-item img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .inspiration-item p {
+            margin: 0;
+            font-size: 23px;
+            color: #333;
+            padding: 0;
+        }
+
+        .brand {
+            margin: 40px 0;
+        }
+
+        .brand p {
+            font-weight: 500;
+            font-size: 30px;
+            color: #1c1c1c;
+            margin-bottom: 25px;
+        }
+
+        .brand-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .brand-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .brand-item img {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .brand-item p {
+            margin: 0;
+            font-size: 23px;
+            color: #333;
+            padding: 0;
+        }
+
+        p.small {
+            color: #464646;
+            font-size: 12px;
+        }
+
+        .image-text {
+            margin: 0px 0px 1rem;
+            font-size: -3px;
+            line-height: 1.8rem;
+            background: rgb(37, 111, 239);
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            width: max-content;
+            border-radius: 0px 0.2rem 0.2rem 0px;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            padding: 0px 9px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato Logo">
+        </div>
+        <div class="location-search">
+            <img src="assets/loc.svg" class="icon" alt="Location Icon">
+            <select>
+                <option>Block B, Jaypee Greens</option>
+            </select>
+            <img src="assets/dropdown.svg" class="icon dropdown-icon" alt="Dropdown Icon">
+            <div class="divider"></div>
+            <img src="assets/search.svg" class="icon search-icon" alt="Search Icon">
+            <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+        </div>
+        <div class="auth-buttons">
+            <a href="#">Log in</a>
+            <a href="#">Sign up</a>
+        </div>
+    </div>
+
+    <p>
+        <span>Home /</span><span> Pakistan /</span><span> Famous Dehli /</span><span>Restaurants</span>
+    </p>
+
+    <div class="nav-section">
+        <a href="index.html" class="nav-item inactive">
+            <div class="circle">
+                <img src="https://b.zmtcdn.com/data/o2_assets/78d25215ff4c1299578ed36eefd5f39d1616149985.png"
+                    alt="Dining Out">
+            </div>
+            <span>Dining Out</span>
+        </a>
+        <a href="delivery.html" class="nav-item active">
+            <div class="circle">
+                <img src="https://b.zmtcdn.com/data/o2_assets/c0bb85d3a6347b2ec070a8db694588261616149578.png"
+                    alt="Delivery" style="background-color: #fceec0">
+            </div>
+            <span>Delivery</span>
+            <div class="underline"></div>
+        </a>
+        <a href="nightlife.html" class="nav-item inactive">
+            <div class="circle">
+                <img src="https://b.zmtcdn.com/data/o2_assets/01040767e4943c398e38e3592bb1ba8a1616150142.png"
+                    alt="Nightlife">
+            </div>
+            <span>Nightlife</span>
+        </a>
+    </div>
+    <div class="capsule-section">
+        <div class="capsule">
+            <img src="assets/filter.svg">Filters
+        </div>
+        <div class="capsule">Pure veg</div>
+        <div class="capsule">Cuisines</div>
+    </div>
+
+    <main>
+        <section class="inspiration">
+            <p>Inspiration for your first order</p>
+            <div class="inspiration-container">
+                <div class="inspiration-item">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/d0bd7c9405ac87f6aa65e31fe55800941632716575.png"
+                        alt="Pizza">
+                    <p>Pizza</p>
+                </div>
+                <div class="inspiration-item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
+                        alt="Burger">
+                    <p>Burger</p>
+                </div>
+                <div class="inspiration-item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+                        alt="Chicken">
+                    <p>Chicken</p>
+                </div>
+                <div class="inspiration-item">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/37df381734b24f138af4a84fd7e4d4ec1716558578.jpeg"
+                        alt="Biryani">
+                    <p>Biryani</p>
+                </div>
+                <div class="inspiration-item">
+                    <img src="https://b.zmtcdn.com/data/o2_assets/52eb9796bb9bcf0eba64c643349e97211634401116.png"
+                        alt="Thali">
+                    <p>Thali</p>
+                </div>
+                <div class="inspiration-item">
+                    <img src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png"
+                        alt="Rolls">
+                    <p>Rolls</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="brand">
+        <p>Top brands for you</p>
+        <div class="brand-container">
+            <div class="brand-item">
+                <img
+                    src="https://b.zmtcdn.com/data/brand_creatives/logos/22529ff52d41a4aa3b36ac1e7e0c0db3_1605099406.png">
+                <p>Haldiram's</p>
+                <p class="small">36 min</p>
+            </div>
+            <div class="brand-item">
+                <img
+                    src="https://play-lh.googleusercontent.com/TGT4gfNRD4OKp7AU3t6VJ_jR8JmzkEAqP8Ynw4_M06oQZPAN7axTfpt_pKOBOxz4fBg">
+                <p>McDonald's</p>
+                <p class="small">35 min</p>
+            </div>
+            <div class="brand-item">
+                <img
+                    src="https://b.zmtcdn.com/data/brand_creatives/logos/1a985408ca7ad8fd097f2c47db9c5cb6_1611252699.png">
+                <p>Domino's Pizza</p>
+                <p class="small">24 min</p>
+            </div>
+            <div class="brand-item">
+                <img
+                    src="https://b.zmtcdn.com/data/brand_creatives/logos/6a11fd0f30c9fd9ceaff2f5b21f61d23_1617187857.png">
+                <p>Burger King</p>
+                <p class="small">35 min</p>
+            </div>
+            <div class="brand-item">
+                <img
+                    src="https://b.zmtcdn.com/data/brand_creatives/logos/9302c59eca94abbee01aec9acf9305f6_1676471786.png">
+                <p>Subway</p>
+                <p class="small">30 min</p>
+            </div>
+            <div class="brand-item">
+                <img
+                    src="https://b.zmtcdn.com/data/brand_creatives/logos/466f8fc74274145f3b21795c3d21816d_1589433692.png">
+                <p>KFC</p>
+                <p class="small">31 min</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="trending-cards">
+        <p class="heading">
+            Food Delivery Restaurants in
+        </p>
+        <div class="card-cont2">
+            <div class="card">
+                <div class="image-container">
+                    <img src="https://b.zmtcdn.com/data/pictures/8/19286728/5d054a1c47b0b68b542a214de4271f0b_o2_featured_v2.jpg"
+                        alt="Image 1">
+                    <span class="image-text">₹200 OFF</span>
+                </div>
+                <div class="description">
+                    <div class="flex-box1"><span>Curry Mahal</span><span>3.9 <img src="assets/star.svg"></span></div>
+                    <div class="flex-box2"><span>Chinese, North Indian, Sou...</span><span>₹1,100 for two</span></div>
+                    <div class="flex-box3"><span>Omega 2, Greater Noida</span><span>956m</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/1/931/e513eb27ba3c7b7cbbeb8898286499ed_o2_featured_v2.jpg"
+                        alt="Image 2">
+                    <span class="image-text">₹50 OFF</span>
+                </div>
+                <div class="description">
+                    <div class="flex-box1"><span>KFC</span><span>3.9 <img src="assets/star.svg"></span></div>
+                    <div class="flex-box2"><span>Chinese, North Indian, Sou...</span><span>₹1,100 for two</span></div>
+                    <div class="flex-box3"><span>Omega 2, Greater Noida</span><span>956m</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/0/550/9361ee4d0e18519da526b87f81f067ae_o2_featured_v2.jpg"
+                        alt="Image 2">
+                    <span class="image-text">Flat ₹150 OFF + Free Delivery</span>
+                </div>
+                <div class="description">
+                    <div class="flex-box1"><span>Haldiram's</span><span>3.9 <img src="assets/star.svg"></span></div>
+                    <div class="flex-box2"><span>Chinese, North Indian, Sou...</span><span>₹2,400 for two</span></div>
+                    <div class="flex-box3"><span>Omega 2, Greater Noida</span><span>2.1 km</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/6/18258756/cf6b85ac92726eccb3a21d8dd46cc09b_o2_featured_v2.jpg"
+                        alt="Image 2">
+                </div>
+                <div class="description">
+                    <div class="flex-box1"><span>Miniatures</span><span>3.9 <img src="assets/star.svg"></span></div>
+                    <div class="flex-box2"><span>Chinese, North Indian, Sou...</span><span>₹2,900 for two</span></div>
+                    <div class="flex-box3"><span>Omega 2, Greater Noida</span><span>1.8 km</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="https://b.zmtcdn.com/data/pictures/4/20804534/c5a753b0c82702916797b82af3b5622d_o2_featured_v2.jpg"
+                        alt="Image 2">
+                    <span class="image-text">₹100 OFF</span>
+                </div>
+                <div class="description">
+                    <div class="flex-box1"><span>Assassinations</span><span>3.9 <img src="assets/star.svg"></span></div>
+                    <div class="flex-box2"><span>Chinese, North Indian, Sou...</span><span>₹1,100 for two</span></div>
+                    <div class="flex-box3"><span>Omega 2, Greater Noida</span><span>680 m</span></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image-container">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/6/246/9979d1d417e4516c475045031bb9b4b1_o2_featured_v2.jpg"
+                        alt="Image 3">
+                    <span class="image-text">₹50 OFF</span>
+                </div>
+                <div class="description">
+                    <div class="flex-box1"><span>Biryani, Kabab</span><span>3.9 <img src="assets/star.svg"></span></div>
+                    <div class="flex-box2"><span>Chinese, North Indian, Sou...</span><span>₹1,100 for two</span></div>
+                    <div class="flex-box3"><span>Omega 2, Greater Noida</span><span>956m</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="footer">
+
+        <div class="footer-logo">
+            <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="Zomato Logo">
+
+            <div class="country-language">
+                <div class="dropdown">
+                    <span><img src="assets/pak.svg">Pakistan <img src="assets/drop-lang.svg"></span>
+                </div>
+                <div class="dropdown">
+                    <span><img src="assets/globe.svg">English <img src="assets/drop-lang.svg"></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-container">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>ABOUT ZOMATO</h3>
+                    <ul>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Work With Us</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Report Fraud</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>ZOMAVERSE</h3>
+                    <ul>
+                        <li><a href="#">Zomato</a></li>
+                        <li><a href="#">Blinkit</a></li>
+                        <li><a href="#">Feeding India</a></li>
+                        <li><a href="#">Hyperpure</a></li>
+                        <li><a href="#">Zomaland</a></li>
+                        <li><a href="#">Weather Union</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>FOR RESTAURANTS</h3>
+                    <ul>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Apps For You</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>LEARN MORE</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-extras">
+                <div class="social-links">
+                    <a href="#"><img src="assets/in.svg" alt="LinkedIn"></a>
+                    <a href="#"><img src="assets/insta.svg" alt="Instagram"></a>
+                    <a href="#"><img src="assets/tweet.svg" alt="Twitter"></a>
+                    <a href="#"><img src="assets/yt.svg" alt="YouTube"></a>
+                    <a href="#"><img src="assets/fb.svg" alt="Facebook"></a>
+                </div>
+                <div class="app-links">
+                    <a href="#"><img
+                            src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                            alt="App Store"></a>
+                    <a href="#"><img
+                            src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                            alt="Google Play"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                Content Policies. All trademarks are properties of their respective owners. 2024 © Zomato™ Ltd. All
+                rights reserved.</p>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
